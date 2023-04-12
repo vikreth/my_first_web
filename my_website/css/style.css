@@ -1,0 +1,42 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.center-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gap {
+    gap: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.center a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: #5758BB;
+}
+.center a:hover{
+    color: #B53471;
+}
+.profile{
+    width: 15%;
+    border-radius: 50%;
+}
+.heading {
+    color: #12CBC4;
+    font-family:cursive ;
+}
+.paragraph {
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1B1464;
+}
+.underline{
+    text-decoration: underline;
+}
